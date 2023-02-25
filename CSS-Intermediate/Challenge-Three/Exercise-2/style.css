@@ -8,6 +8,7 @@ body {
   font-size: 1.2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
+  margin-top: -10px;
 }
 .first {
   display: flex;
@@ -20,7 +21,8 @@ body {
 .flex {
   display: flex;
   flex-direction: row;
-  margin: 15px;
+  margin: 20px 7px;
+  margin-bottom: 40px;
 }
 .second {
   display: flex;
