@@ -1,0 +1,181 @@
+body,
+.nav,
+.first,
+.one,
+.two,
+.second-one,
+.third-one {
+  display: flex;
+}
+
+body {
+  flex-direction: column;
+  width: auto;
+  font-family: "Titan One", cursive;
+  margin-left: 0;
+  margin-right: 0;
+}
+body,
+.third {
+  background-color: bisque;
+}
+.second,
+.forth {
+  background-color: blanchedalmond;
+}
+
+.nav {
+  flex-wrap: wrap;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  font-size: 2rem;
+}
+.nav a {
+  text-decoration: none;
+  margin: 10px;
+  color: rgba(7, 7, 7, 0.6);
+}
+.first {
+  flex-direction: column;
+  margin: 100px 50px;
+  line-height: 25px;
+}
+.one,
+.two {
+  max-width: 40%;
+  height: auto;
+  margin-bottom: 50px;
+  opacity: 0.8;
+}
+.one {
+  float: left;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.two {
+  float: right;
+  margin-left: 50px;
+}
+
+#second {
+  margin-top: 50px;
+}
+h1 {
+  text-align: center;
+}
+.second {
+  padding-top: 50;
+}
+.second-one {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.block {
+  border: 3.5px dotted black;
+  max-width: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  color: black;
+  opacity: 0.7;
+  margin: 2%;
+  padding: 1%;
+  transition: 3s;
+}
+.block:hover {
+  scale: 1.2;
+}
+
+.third-one {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.third-one img {
+  width: 28%;
+  opacity: 0.7;
+  margin: 2%;
+  transition: 2s;
+}
+.third-one img:hover {
+  scale: 1.2;
+  opacity: 1;
+}
+.forth img {
+  float: left;
+  height: auto;
+  max-width: 25%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 2rem;
+}
+video {
+  max-width: 40%;
+  height: auto;
+}
+
+@media all and (max-width: 768px) {
+  .nav,
+  #first,
+  #second,
+  .third-one,
+  .forth-one {
+    display: flex;
+  }
+  .one,
+  .two {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10%;
+    max-width: 100%;
+  }
+
+  .first {
+    margin-top: 20px;
+  }
+  .nav {
+    justify-content: space-between;
+    font-size: 1em;
+    line-height: 0.3em;
+  }
+  .nav a {
+    color: rgba(7, 7, 7, 0.5);
+  }
+  #first,
+  #second {
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+  }
+  .third-one {
+    flex-direction: column;
+    align-items: center;
+  }
+  .third-one img {
+    width: 60%;
+    opacity: 0.7;
+    margin: 5%;
+    transition: 2s;
+  }
+  .forth-one {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .forth-one img {
+    max-width: 50%;
+    height: auto;
+  }
+  ul {
+    text-align: center;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  video {
+    max-width: 50%;
+  }
+}
