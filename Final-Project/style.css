@@ -100,6 +100,10 @@ h1 {
   scale: 1.2;
   opacity: 1;
 }
+.forth {
+  display: inline-block;
+  width: 100%;
+}
 .forth img {
   float: left;
   height: auto;
@@ -116,6 +120,10 @@ ul {
 video {
   max-width: 40%;
   height: auto;
+}
+.footer {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
 }
 
 @media all and (max-width: 768px) {
@@ -180,7 +188,7 @@ video {
     padding-right: 0%;
   }
   video {
-    max-width: 50%;
+    max-width: 90%;
   }
   .block:hover {
     scale: 1;
