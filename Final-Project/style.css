@@ -162,6 +162,10 @@ video {
     margin: 5%;
     transition: 2s;
   }
+  .third-one img:hover {
+    scale: 1;
+    opacity: 1;
+  }
   .forth-one {
     flex-wrap: wrap;
     justify-content: center;
@@ -177,5 +181,8 @@ video {
   }
   video {
     max-width: 50%;
+  }
+  .block:hover {
+    scale: 1;
   }
 }
